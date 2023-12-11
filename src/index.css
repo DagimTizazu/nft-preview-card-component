@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
+*, *::before , *::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Outfit', sans-serif;
   margin: 0;
