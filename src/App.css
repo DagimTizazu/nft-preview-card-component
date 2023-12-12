@@ -9,18 +9,30 @@
   background-color: hsl(216, 50%, 16%);
   padding: 25px;
   border-radius: 15px;
+  box-shadow: 1em 2em 1em -1em hsl(215, 70%, 5%); 
+}
+
+@media (min-width: 500px){
+  .card {
+    max-width: 365px;
+  }
 }
 
 .equi-img {
   width: 100%;
   height: 300px;
   border-radius: 30px;
-  margin-bottom: 8px;
+  margin-bottom: 1.5em;
   background-Image: url('./assets/image-equilibrium.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
+}
+@media (min-width: 700px){
+  .equi-img{
+  margin-bottom: 1.7em;
+  }
 }
 
 .hover-img {
@@ -43,6 +55,11 @@
   text-align: left;
   color: hsl(0, 0%, 100%);
 }
+@media (min-width: 700px){
+  .heading-1{
+  font-size: 1.5em;
+  }
+}
 
 .heading-1:hover {
   color:hsl(178, 100%, 50%);
@@ -53,6 +70,13 @@
   line-height: 1.7em;
   text-align: left;
   margin-bottom: 0;
+}
+@media (min-width: 700px){
+  .text{
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-bottom: .3em;
+  }
 }
 
 .price, .time {
@@ -66,10 +90,21 @@
   font-weight: 600;
   color: hsl(178, 100%, 50%);
 }
+@media (min-width: 700px){
+  .price-text{
+  font-size: 1.1em;
+  }
+}
 
 .time-text {
   font-size: 1em;
 }
+@media (min-width: 700px){
+  .time-text{
+  font-size: 1.1em;
+  }
+}
+
 
 .price-and-time {
   display: flex;
@@ -78,8 +113,14 @@
 
 .line {
   border-color: hsl(215, 32%, 27%);
-  margin: 0 0 12px;
+  margin: 0 0 .8em;
 }
+@media (min-width: 700px){
+  .line{
+  margin: .4em 0 .8em ;
+  }
+}
+
 
 .footer-container {
   display: flex;
@@ -92,10 +133,20 @@
   border: 1px solid #fff;
   border-radius: 50%;
 }
+@media (min-width: 700px){
+  .avatar-image{
+  width: 2.2em;
+  }
+}
 
 .footer-text{
   font-size: 1em;
   font-weight: 300;
+}
+@media (min-width: 700px){
+  .footer-text{
+  font-size: 1.1em;
+  }
 }
 
 .footer-text span {
