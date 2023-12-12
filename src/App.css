@@ -4,6 +4,12 @@
   color: hsl(215, 51%, 70%);
 }
 
+@media (min-width: 700px){
+  #root {
+    padding: 130px 20px;
+  }
+}
+
 .card {
   margin: 0 auto;
   background-color: hsl(216, 50%, 16%);
