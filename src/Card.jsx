@@ -6,7 +6,7 @@ export default function Card() {
  
     return (
         <div className='card'>
-            
+            <main role='main'>
             <div className='equi-img'><div className='hover-img'></div></div>
             <h1 className="heading-1">Equilibrium #3429</h1>
             <p className="text">Our Equilibrium collection promotes balance and calm.</p>
@@ -26,7 +26,8 @@ export default function Card() {
             <div className="footer-container">
                 <img className='avatar-image' src={footerImage} alt="avatar" />
                 <p className='footer-text'>Creation of <span>Jules Wyvern</span></p>
-            </div>
+                </div>
+                </main>
         </div>
     )
 }
