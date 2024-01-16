@@ -54,6 +54,7 @@
   background-image: url('./assets/icon-view.svg');
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }  
 
 .heading-1{
@@ -69,6 +70,7 @@
 
 .heading-1:hover {
   color:hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 .text{
@@ -161,6 +163,7 @@
 
 .footer-text span:hover {
   color:hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 
